@@ -1,0 +1,12 @@
+
+1. Module Introduction and Recap
+2. Create Form with Floating label and form validation
+3. Try Modal, dialog, handle multiple modal, Offcanvas
+4. Flex layout, justify content, align items, horizontal center
+5. Bootstrap responsive Container and breakpoints
+6. Grid System with 12 column layout, responsive grid
+7. Responsive players using bootstrap grid columns
+8. Another Responsive example for bags and jackets cards
+9. Navbar again, Bootstrap Overview, Module Summary
+
+Challengs => make leaderboard-css with bootstrap

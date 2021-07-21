@@ -1,0 +1,12 @@
+1.  When to use bootstrap and when to use vanilla css
+2. Create a navbar with proper alignment using bootstrap(leaderboard)
+3. Create responsive grid with gutters and spacing (player part)
+4. Apply nesting rows for responsive top blogs
+5 .Write Bootstrap summary and CSS measuring Unit
+
+
+Task: bootstrap documents read and 
+ complete leader-board using bootstrap.
+
+ + conceptual session
+

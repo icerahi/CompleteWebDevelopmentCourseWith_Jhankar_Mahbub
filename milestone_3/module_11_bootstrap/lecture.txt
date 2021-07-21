@@ -1,0 +1,12 @@
+
+Explore from https://getbootstrap.com
+
+1. start bootstrap
+2.  background-color
+3. borders,colors,overflow and positions.
+4. shadow,margin,padding,width,height
+5. Responsive image, image thumbnail, table, striped table
+6. Create a image slider, carousel using bootstrap
+7. Website card, card design, card image, card group
+8. Button, button group, spinner, tooltips, scrollspy, toasts
+9. Module Summary Nav tag, navigation, fixed navbar

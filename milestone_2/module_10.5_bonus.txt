@@ -1,0 +1,5 @@
+1) flexbox and grid => flex-direction,flex-grow,flex-wrap,order,
+2) postion relative and absolute
+3)media query one more time
+4)create animation using css animate libary
+5)talk about conceptual session.
