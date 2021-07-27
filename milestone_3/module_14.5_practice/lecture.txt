@@ -1,0 +1,2 @@
+1.Create private repository and deploy to netlify for assignment
+2. Practice Nike React using bootstrap in private repo

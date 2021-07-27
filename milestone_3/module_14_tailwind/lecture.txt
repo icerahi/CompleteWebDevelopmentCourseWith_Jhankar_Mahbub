@@ -1,0 +1,10 @@
+1.Getting started with tailwind
+2.Tailwind utility classes and comparison with bootstrap
+3.Layout container and Flexbox using Tailwind
+4.Explore Tailwind grid with row and column span
+5.Penguin fashion overview and tailwind setup
+6.Apply header section grid layout and svg hero icons
+7.Make header responsive, Button gradient, card setup
+8.Setup custom card and card grid using tailwind css
+9. Responsive grid card interesting grid and image size
+10.How to select Right CSS framework for your project
