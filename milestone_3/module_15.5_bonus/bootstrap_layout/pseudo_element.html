@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1::before {
+        content: " Love";
+        color: red;
+      }
+      h1::after {
+        content: " You";
+        color: green;
+      }
+      blockquote::before {
+        content: open-quote;
+        color: red;
+        font-size: 2em;
+      }
+      blockquote::after {
+        content: close-quote;
+        color: red;
+        font-size: 2em;
+      }
+      .section-title {
+        display: inline-block;
+      }
+      .section-title::after,
+      .section-title:hover::before {
+        content: "";
+        display: block;
+        background-color: magenta;
+        height: 2px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Rahi</h1>
+    <h1>bondhu</h1>
+    <section>
+      <h2 class="section-title">Best Quotes</h2>
+      <blockquote>
+        Patience,persistence and perspiration an unbeatable combination for
+        success
+      </blockquote>
+      <blockquote>Desire is the starting point of all acheivement</blockquote>
+      <blockquote>Strength and growth come only</blockquote>
+    </section>
+
+    <section></section>
+  </body>
+</html>

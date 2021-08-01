@@ -1,0 +1,10 @@
+1. Introduction to JavaScript, Run JavaScript in VSCode
+2.What is variable, five things you need to declare a variable
+3. Variable type, Numeric, String, Boolean
+4. Variable name naming convention and best practice
+5.Simple Mathematical operations in JavaScript
+6. (advanced) Mathematical operation shorthand
+7.(advanced)Integer float parseInt parseFloat type conversion
+8.Different variable types and use toFixed with parseFloat
+9.Module Summary and remainder modulus
+

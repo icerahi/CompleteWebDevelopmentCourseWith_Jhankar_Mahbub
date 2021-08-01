@@ -4,9 +4,5 @@
 4. Apply nesting rows for responsive top blogs
 5 .Write Bootstrap summary and CSS measuring Unit
 
-
-Task: bootstrap documents read and 
- complete leader-board using bootstrap.
-
- + conceptual session
+ 
 

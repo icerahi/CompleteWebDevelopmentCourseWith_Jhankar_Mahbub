@@ -1,0 +1,7 @@
+1.Create a three column multiple rows layout
+2.Nested row and column layout with no gutter
+3.How to debug CSS and HTML using devtool
+4.Practical use of pseudo element before and after
+5.Run Javascript in Visual Studio Code to get ready
+6.Be determined to get out of our course
+
