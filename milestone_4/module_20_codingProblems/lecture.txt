@@ -1,0 +1,9 @@
+1. Module Introduction, Math and Random number
+2. Swap variable, swap without temp, destructing
+3. Find max of two values, find max of three values
+4. Sum of all numbers in an array
+5. Find the largest element of an array
+6. Create a Fibonacci Series using a for loop
+7. Handle unexpected input using simple return
+8.(advanced) Fibonacci Element and series Recursive way
+9. Module summary and Create Fibonacci series in a recursive way
