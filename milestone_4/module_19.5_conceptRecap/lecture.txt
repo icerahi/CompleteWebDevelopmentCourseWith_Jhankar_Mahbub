@@ -1,1 +1,2 @@
 1. Javascript concepts and apply revision with four challenges
+2. Simple Problem solving checklist and practice

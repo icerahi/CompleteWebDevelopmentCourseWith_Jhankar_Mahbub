@@ -1,0 +1,31 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+/* common style  */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+header {
+  background-color: #264653;
+}
+ 
+.bg-orange {
+  background-color: #e76f51;
+}
+.text-orange {
+  color: #e76f51;
+}
+
+/* custom radius */
+.cs-rounded {
+  border-radius: 20px;
+}
+
+.gray-img {
+  filter: grayscale(100%);
+}
+footer {
+  background-color: black;
+  margin: 0;
+}
