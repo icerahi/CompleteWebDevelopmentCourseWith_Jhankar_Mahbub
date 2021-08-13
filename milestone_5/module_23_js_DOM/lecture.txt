@@ -1,0 +1,9 @@
+1.Module Introduction and what is JavaScript
+2.Create Script tag and connect external Script file
+3.What is DOM (Document Object Model)
+4.Get different HTML elements in JS by using tag name
+5.Capture and change Element by using getElementById
+6. Explore getElementsByClassName and querySelectorAll
+7.NodeList, htmlcollection, setAttribute, parentNode, childnodes
+8. Create HTML elements using Javascript and appendChild
+9. Module summary and DOM Review

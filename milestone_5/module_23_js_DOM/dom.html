@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* #title{
+            background-color:rgba(210, 105, 30, 0.596) ;
+        } */
+      /* .blog{
+            border:2px solid orange;
+            margin:5px;
+            padding:5px;
+            border-radius:10px;
+        } */
+    </style>
+  </head>
+  <body>
+    <header><h1>Welcome to my blog website</h1></header>
+
+    <main>
+      <section id="blogs" class="blogs">
+        <header>
+          <h2>Blogs list</h2>
+          <ul id="blog-list">
+            <li>blog-1</li>
+            <li>blog-2</li>
+            <li>blog-3</li>
+            <li>blog-4</li>
+          </ul>
+        </header>
+
+        <article class="blog">
+          <h3>My awesome Blog-1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Architecto, eligendi sint? Consectetur earum dicta impedit rerum,
+            repudiandae minus nesciunt, debitis magnam iure labore facilis
+            voluptatibus odit fuga natus, inventore accusantium?
+          </p>
+        </article>
+        <article id="second-blog" class="blog">
+          <h3 id="title">My awesome Blog-2</h3>
+          <p>
+            Laboriosam qui suscipit deleniti nihil facere enim, dolorem cum
+            fugiat quos optio consequuntur nesciunt a sit dolor illum repellat
+            dignissimos, porro aliquam. Autem, laboriosam rem placeat enim
+            officiis quibusdam voluptatum.
+          </p>
+        </article>
+        <article class="blog">
+          <h3>My awesome Blog-3</h3>
+          <p>
+            Quos itaque aliquam facere illum ullam eligendi tenetur porro
+            laborum dolor, culpa quae, temporibus neque quisquam mollitia
+            asperiores. Recusandae dolorum non eos ipsum commodi in iure
+            sapiente sint incidunt exercitationem!
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <script>
+      const student = { name: "kissmot Ali", age: 16, height: 60 };
+      // console.log(document.body);
+
+      const blogTitles = document.getElementsByTagName("h3");
+      console.log(blogTitles);
+      for (const h3 of blogTitles) {
+        // console.log(h3.innerText);
+      }
+
+      const blogDetails = document.getElementsByTagName("p");
+      for (const p of blogDetails) {
+        // console.log(p.innerText);
+      }
+
+      //Exploring getElementByID
+      const title = document.getElementById("title");
+      title.style.color = "red";
+      title.style.backgroundColor = "whitesmoke";
+      // title.style.textAlign='center'
+      title.innerText = "Change by Javascript";
+      title.style.padding = "10px";
+      title.style.marginLeft = "20px";
+
+
+      //exploring querySelector & querySelectorAll
+
+      // create and add element by using JS
+
+    //   create the element 
+      const li = document.createElement('li');
+      li.innerText = 'Blog-5'
+
+    //   where to add 
+      const ul = document.getElementById('blog-list');
+      ul.appendChild(li)
+
+
+      // add article 
+
+      const article = document.createElement('article')
+      article.classList.add('blog')
+    //   const h3 = document.createElement('h3')
+    //   h3.innerText = 'My Awesome blog 5'
+    //   const p = document.createElement('p');
+    //   p.innerText ='blabadlakepoifjapseifPOASIFJEIF KUCH KUCH HOTA HAI'
+    //   article.appendChild(h3);
+    //   article.appendChild(p);
+    article.innerHTML =`<h3>My Awesome blog 5</h3>
+    <p> blabadlakepoifjapseifPOASIFJEIF KUCH KUCH HOTA HAI</p>`
+
+      // parent of article
+      const blogSection = document.getElementById('blogs')
+      blogSection.appendChild(article)
+
+
+            // explore getElementByClassName
+            const blogs = document.getElementsByClassName("blog");
+      for (const blog of blogs) {
+        blog.style.border = "2px solid orange";
+        blog.style.borderRadius = "10px";
+        blog.style.padding = "10px";
+        blog.style.margin = "10px";
+      }
+    </script>
+  </body>
+</html>

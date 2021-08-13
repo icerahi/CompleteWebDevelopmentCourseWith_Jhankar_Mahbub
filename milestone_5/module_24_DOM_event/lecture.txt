@@ -1,0 +1,9 @@
+1. What is Event, different types of event in web
+2.Add onclick handler directly or via javascript
+3.Different ways to use addEventListener on a button
+4.Most common ways to set Event Handlers
+5.Create a comment box and display comment
+6.Simple github like delete confirmation button
+7.(semi-advanced) Event bubble and Stop propagating
+8.(advanced) Event delegate and benefit of Event bubble
+9.DOM events summary and home work

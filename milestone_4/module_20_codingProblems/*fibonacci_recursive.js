@@ -28,7 +28,7 @@ function fibonacciSeries(n){
         return [0,1]
     }
     const fibo=fibonacciSeries(n-1);
-    console.log(fibo)
+  
     fibo[n] = fibo[n-1]+fibo[n-2]
     return fibo;
 }
