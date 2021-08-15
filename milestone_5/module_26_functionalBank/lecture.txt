@@ -1,0 +1,9 @@
+1.Module Overview And Project Setup
+2.Get User Deposit And Set Deposit Total Value
+3.Update Deposit And Balance And Handle String Add
+4. Money Withdraw And Reduce Balance For Withdraw
+5.(Advanced) Common Function To Reduce Code Repeat
+6.(Advanced) Share One Function Between Two Input Field
+7.(Advanced) Deposit And Withdraw Update With One Function
+8. (Advanced) Shared Balance Update Function
+9.(Advanced) Nested Function And Error Handling
