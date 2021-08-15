@@ -1,0 +1,9 @@
+1.Project overview, Tailwind review text align text color
+2.Login form, input field, password text field, submit
+3. Add event listener navigate to another page
+4.Deposit, withdraw, balance area using grid layout
+5.Create Deposit and withdraw amount Input Fields
+6. Get User deposit and set deposit total value
+7.Update deposit and balance and handle string add
+8.Money withdraw and reduce balance for withdraw
+9.Module Summary and Overall Project Overview

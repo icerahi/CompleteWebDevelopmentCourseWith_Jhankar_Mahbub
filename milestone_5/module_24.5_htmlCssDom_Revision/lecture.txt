@@ -1,0 +1,1 @@
+1. Revise HTML5 tags, basic JS concepts and Dom events

@@ -1,0 +1,5 @@
+1) Read bootstrap doc
+2) convert leaderboard to bootstrap
+3) Do panda commerce self .
+4) pic design from https://www.uistore.design/
+   and convert in code.
