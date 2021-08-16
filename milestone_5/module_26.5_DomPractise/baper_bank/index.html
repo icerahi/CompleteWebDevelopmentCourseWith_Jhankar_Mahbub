@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baper Bank Version 2</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+ 
+        <h1 class="text-5xl font-bold text-center my-10"> <span class="text-purple-600">Baper Bank</span> Version 2!!!</h1>
+    </header>
+
+    <main class="w-3/4 mx-auto">
+        <section>
+            <div class="grid grid-cols-3 gap-4 text-white">
+                <div class="bg-green-300 p-8 rounded">
+                    <h2 class="text-2xl">Deposit</h2>
+                    <h2 class="text-4xl">$ <span id="total_deposit">00</span></h2>
+                </div>
+                <div class="bg-blue-300 p-8 rounded">
+                    <h2 class="text-2xl">Withdraw</h2>
+                    <h2 class="text-4xl">$ <span id="total_withdraw">00</span></h2>
+                </div>
+                <div class="bg-red-300 p-8 rounded">
+                    <h2 class="text-2xl">Balance</h2>
+                    <h2 class="text-4xl">$ <span id="total_balance">00</span></h2>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="my-8">
+            <div class="grid grid-cols-2">
+                <div class="bg-yellow-200 mx-auto rounded-2xl p-8">
+                    <input id="deposit_input" class="text-2xl border border-gray-400 p-2 rounded-2xl block" type="number" placeholder="deposit amount">
+                    <button id="deposit_btn" class="mt-4 px-10 py-2 rounded-2xl text-white font-semibold bg-red-600">Deposit</button>
+                </div>
+                <div class="bg-pink-200 mx-auto rounded-2xl p-8">
+                    <input id="withdraw_input" class="text-2xl p-2 border border-gray-400 rounded-2xl block" type="number" placeholder="withdraw amount">
+                    <button id="withdraw_btn" class="mt-4 px-10 py-2 rounded-2xl text-white font-semibold bg-red-600">Withdraw</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>
