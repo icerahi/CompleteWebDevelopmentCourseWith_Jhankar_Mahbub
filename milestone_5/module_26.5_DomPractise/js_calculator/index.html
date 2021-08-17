@@ -5,21 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .container{
+            background-color: whitesmoke;
+            display:flex;
+            
+            justify-content: center;
+            padding:20px;
+            width:300px;
+            height:400px;
+            margin:0 auto;
+          
 
+        }
+        #display{
+            font-size:1.5em;
+            border-radius: 10px;
+            width: 250px;
+            margin:10px auto;
+            padding:5px;
+            text-align: right;
+        }
+        .keypad{
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+             
+            gap:10px;
+        }
+        .key{
+            padding: 15px;
+        }
+    
+    </style>
  
 </head>
 <body>
-    <section class="w-2/4 mx-auto">
-        <div class="bg-blue-400 rounded p-4">
-            <input type="text" class="text-3xl p-2 border rounded block text-right">
+    <section class="container">
+        <div >
+            <input type="text" id="display">
+            <div class="keypad">
+                <button style="visibility:hidden;"  class="key"></button>
+                <button style="visibility:hidden;"  class="key"></button>
+                <button style="visibility:hidden;"  class="key"></button>
+                
+                <button onclick="clearAll()" class="key">AC</button>
 
-            <div class="grid grid-cols-4 gap-2">
-                <button class="text-xl3 p-2 font-bolder border">1</button><button class="text-xl3 p-2 font-bolder border">2</button><button class="text-xl3 p-2 font-bolder border">3</button><button class="text-xl3 p-2 font-bolder border">4</button><button class="text-xl3 p-2 font-bolder border">5</button><button class="text-xl3 p-2 font-bolder border">6</button><button class="text-xl3 p-2 font-bolder border">7</button><button class="text-xl3 p-2 font-bolder border">8</button><button class="text-xl3 p-2 font-bolder border">9</button><button class="text-xl3 p-2 font-bolder border">10</button><button class="text-xl3 p-2 font-bolder border">11</button><button class="text-xl3 p-2 font-bolder border">12</button><button class="text-xl3 p-2 font-bolder border">13</button><button class="text-xl3 p-2 font-bolder border">14</button><button class="text-xl3 p-2 font-bolder border">15</button><button class="text-xl3 p-2 font-bolder border">16</button>
+
+                <button onclick="mul()" class="" class="key">*</button>
+                <button onclick="sub()" class="key">-</button>
+                <button onclick="add()" class="key">+</button>
+                <button onclick="div()" class="key">/</button>
+                <button onclick="nine()" class="key">9</button>
+                <button onclick="eight()" class="key">8</button>
+                <button onclick="seven()" class="key">7</button>
+                <button onclick="six()" class="key">6</button>
+                <button onclick="five()" class="key">5</button>
+                <button onclick="four()" class="key">4</button>
+                <button onclick="three()" class="key">3</button>
+                <button onclick="two()" class="key">2</button>
+                <button onclick="one()" class="key">1</button>
+                <button onclick="zero()" class="key">0</button>
+                <button onclick="back()" class="key">C</button>
+                <button onclick="equal()" class="key">=</button>
             </div>
-            
-
         </div>
+        
 
     </section>
 
