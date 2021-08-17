@@ -28,7 +28,7 @@ function ChangeBalance(type) {
         alert("Your balance is lower than your withdraw amount!!");
       }
     } else {
-        getTotal.innerText = total + amount;
+      getTotal.innerText = total + amount;
       getBalance.innerText = balance + amount;
     }
   } else {
