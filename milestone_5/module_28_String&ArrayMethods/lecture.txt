@@ -1,0 +1,9 @@
+1.String comparison using toLowerCase toUpperCase
+2.Apply Search includes, indexOf, startswith, endswith
+3.How to split, slice, substr, substring, concat, join
+4.Check an Array using isArray, indexOf, includes, concat
+5.Get part of an array and insert elements using slice, splice
+6.Have fun with sort and reverse a javascript array
+7.Unlimited parameters to a function using arguments
+8. Different types of Error object and explore Try-catch
+9.A simple introduction to Date object in JavaScript

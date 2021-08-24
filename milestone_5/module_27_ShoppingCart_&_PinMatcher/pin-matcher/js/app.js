@@ -21,6 +21,9 @@ document.getElementById('keypad').addEventListener('click',function(event){
             // calcInput.value = calcInput.value.substr(0,calcInput.value.length-1)
             calcInput.value = ""
         }
+        else if(number == '>'){
+            calcInput.value = calcInput.value.substr(0,calcInput.value.length-1)
+        }
     }
     else{
         calcInput.value+=number

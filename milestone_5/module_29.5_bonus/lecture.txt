@@ -1,0 +1,5 @@
+1.Revisit Baap er bank with Clean functional approach
+2. Share function for deposit and withdraw and balance
+3. Error handling, more functions, different balance calculation
+4.Revisit id, class selector, querySelector, querySelectorAll
+5.(advanced) Event Bubble in a semi complex situation

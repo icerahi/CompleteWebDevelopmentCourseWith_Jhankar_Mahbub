@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart Tailwind</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+</head>
+<body>
+    <main>
+        <section >
+            <h1> Shopping Cart</h1>
+            <button onclick="window.location.reload()" id="reload" class="checkout_btn">Refresh</button>
+
+            <div id="cart" class="container">
+                <button  class="checkout_btn">Cart</button>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img class="item-img" src="./images/product-1.png" alt="">
+                        <h5> I phone ex bla bla</h5>
+                        <div class="item-count">
+                            <button id="phone_minus" class="item-btn">-</button>
+                            <input id="phone_number" class="input_number" type="number" value="0">
+                            <button id="phone_plus" class="item-btn">+</button>
+                        </div>
+                        <h5  class="item-price"> $ <span  id="phone_total">00</span> </h5>
+                        <img class="item-remove" src="./images/remove.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img class="item-img" src="./images/product-2.png" alt="">
+                        <h5 > I phone case ex bla bla</h5>
+                        <div class="item-count">
+                            <button id="case_minus" class="item-btn">-</button>
+                            <input id="case_number" class="input_number" type="number" value="0">
+                            <button id="case_plus" class="item-btn">+</button>
+                        </div>
+                        <h5  class="item-price"> $ <span id="case_total">00</span></h5>
+                        <img  class="item-remove" src="./images/remove.png" alt="">
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div>
+                            <p>Subtotal : </p>
+                            <p>Tax : </p>
+                            <p> <strong>Total : </strong> </p>
+                        </div>
+                        <div>
+                            <p>$ <span id="subtotal">00</span> </p>
+                            <p>$ <span id="tax"></span></p>
+                            <hr>
+                            <p> <strong>$ <span id="total">00</span></strong> </p>
+                        </div>
+                        <div>
+                            <button class="checkout_btn">Checkout</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+ 
+    </main>
+    
+    <script src="./apps.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+1.Practice and review integrate JavaScript with checklist
+
+
+    //task :
+        done>> leader board title color change
+        done >> player section bg change with rgb color 
+        done >> add a interactive ul and button to push li in ul 
+        done >> input value increase when a button click,
+        done >>   max value of input will 5,unless button will disable
+        done >> Design a shopping cart templete following past module
+        done >> Interactive shopping card using JS dom
+        done>> array with English Js Book,find 'javascript' word include books
+            in another array as output. camparison shoulbe case insensative.
+        done>> take verious numbers array and sort it using js.

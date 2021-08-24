@@ -1,0 +1,9 @@
+1. Simple Recap of JavaScript six core parts
+2.Recap of DOM Manipulation and event handler
+3.Breakup with var to have a relationship with Let and const
+4.Function default parameter for not provided values
+5.Template string, multiple line string, dynamic string
+6.Arrow function, multiple parameter, function body
+7.More Arrow functions and big arrow function
+8.Spread operator, array max, copy arrays
+9.Module Summary and ES6 Recap

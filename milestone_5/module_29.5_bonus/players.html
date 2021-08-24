@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bap er Bank</title>
+ </head>
+<body>
+
+    <header>
+        <h1>Player state</h1>
+
+    <main>
+        <section id="players" class="bg-green-100 w-3/4 p-8 mx-auto mt-8">
+             <div class="player">
+                 <h4 class="player-name">Player -1</h4>
+                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi hic doloribus vitae quos repellat. Voluptate tenetur autem vel! Eius sed debitis voluptatem incidunt beatae consequuntur pariatur officiis? Consequatur, nulla necessitatibus?</p>
+             </div>
+             <div class="player">
+                 <h4 class="player-name">Player -2</h4>
+                 <p>Fuga quia quas deleniti sequi incidunt voluptatum voluptas voluptate, ipsum ab officia! Reprehenderit nulla, voluptatum maxime quibusdam laborum eaque cumque sunt pariatur id optio officia atque nobis dolorum dolor dolores.</p>
+             </div>
+             <div class="player">
+                 <h4 class="player-name">Player -3</h4>
+                 <p>Quos rem, quibusdam placeat numquam in nostrum consequuntur fugit facilis deleniti amet, ipsam, ullam voluptate non aperiam obcaecati inventore impedit? Officiis voluptatibus aperiam iusto maxime quibusdam autem amet quos praesentium.</p>
+             </div>
+             <div class="player">
+                 <h4 class="player-name">Player -4</h4>
+                 <p>Expedita tempora reiciendis eaque. Aliquam vitae omnis animi perspiciatis sit soluta reprehenderit nihil reiciendis ut delectus provident magnam odio, repudiandae et rerum recusandae tempora, modi repellendus fugiat quisquam laudantium pariatur.</p>
+             </div>
+        </section>
+        <button onclick="addPlayer()">Add player</button>
+
+    </main>
+    
+    <script>
+        function setPlayerStyle(player){
+            player.style.border='1px solid green';
+            player.style.margin='10px';
+            player.style.borderRadius='10px';
+        }
+        const players = document.getElementsByClassName('player')
+        for(const player of players){
+            setPlayerStyle(player)
+
+            // player.addEventListener('click',function(){
+            //     player.style.backgroundColor='lightgray'
+            // })
+        }
+        function addPlayer(){
+            const playersContainer = document.getElementById('players')
+            const player = document.createElement('div')
+            player.classList.add('player')
+            player.innerHTML = `<h4 class="player-name">New Player -4</h4>
+                 <p>Expedita tempora reiciendis eaque. Aliquam vitae omnis animi perspiciatis sit soluta reprehenderit nihil reiciendis ut delectus provident magnam odio, repudiandae et rerum recusandae tempora, modi repellendus fugiat quisquam laudantium pariatur.</p>`
+            playersContainer.appendChild(player)   
+            setPlayerStyle(player)
+
+            // player.addEventListener('click',function(){
+            //     player.style.backgroundColor='lightgray'
+            // })         
+
+         }
+
+         //background color set by event_bubble
+         document.getElementById('players').addEventListener('click',function(event){
+             if(event.target.tagName.toLowerCase() == 'div'){
+                 event.target.style.backgroundColor="red";
+             }
+             else{
+                 event.target.parentNode.style.backgroundColor="red"
+             }
+         })
+    </script>
+</body>
+</html>

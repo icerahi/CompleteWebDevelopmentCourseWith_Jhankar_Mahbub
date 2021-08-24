@@ -1,0 +1,9 @@
+1. Module Introduction and Basic ES6 Recap
+2. Destructuring Object to extract values to variables
+3.(advanced) Array Destructuring, nested object Optional chaining
+4.Array map to do one line loop magic
+5. Map string array, array of objects map, foreach
+6. (advanced) Implement filter, find on an array of objects
+7.(advanced) Class, constructor, method, create object from class
+8. (advanced) Inheritance, extends class, super, class method
+9. (advanced) Prototypical inheritance and module summary
