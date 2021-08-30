@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <title>SportsDb</title>
+    <style>
+      .dialog-box {
+        width: 50%;
+        height: 75%;
+        position: fixed;
+        z-index: 999;
+        top: 10%;
+        right: 25%;
+        background-color: white;
+        border: 1px solid rgb(216, 216, 216);
+        border-radius: 30px;
+        padding: 20px;
+        box-shadow: 1px 10px 10px gray;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+      }
+      .dialog-close {
+        font-size: 40px;
+        position: fixed;
+        right: 22%;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        padding: 15px;
+        top: 5%;
+        cursor: pointer;
+        z-index: 9999999;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <!-- meal search area  -->
+      <h2 class="text-center fw-bold text-success">Search your club</h2>
+      <div class="input-group mb-3 w-50 mx-auto">
+        <input
+          id="search_field"
+          type="text"
+          class="form-control"
+          placeholder="Search the club you want!"
+      
+          aria-describedby="button-addon2"
+        />
+        <button
+          onclick="loadData()"
+          class="btn btn-outline-success"
+          type="button"
+          id="button_search"
+        >
+          Search
+        </button>
+      </div>
+
+      <div id="teams" class="row mx-auto"></div>
+    </section>
+
+    <script src="./js/sportsdb.js"></script>
+  </body>
+</html>

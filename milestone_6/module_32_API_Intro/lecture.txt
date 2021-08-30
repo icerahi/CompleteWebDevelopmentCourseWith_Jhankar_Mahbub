@@ -1,0 +1,14 @@
+1. Introduction And What Is An Api
+2. Intro To Json, Json Structure, Parse, Stringify
+3. Json Placeholder, Get Data, Display Data On UI
+4. Load More Data, More API, Send Data To Function
+5. Dynamically Display Loaded Data On Your Website
+6. Load Posts And Display On The Website With Css
+7. Get, Post, Patch, Delete, Crud, Get Vs Post
+8. Debug Api, Network Tab,Status Code, Headers, Bad Api
+9. Module Summary And Two Home works
+
+ ===>home work
+  (Done)  1) display comments 
+    (done)2) display photos
+

@@ -1,0 +1,10 @@
+1.Basic API concept recap with Kanye West
+2.(advanced) Handle and display Nested API data
+3.International Travel, Display countries name, capital
+4.(advanced) Call dynamic API, load dynamic data to display
+5. Explore meal db api and create dynamic url to load meals
+6. Display dynamic search result using bootstrap cards.
+7. Create dynamic url based on click and display data.
+8. (advanced) Remove previous result and async await
+9.Module Summary handle fetch error, use try catch
+

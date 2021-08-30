@@ -1,0 +1,11 @@
+1.Module Overview, Dynamic data types
+2.Primitive data type and non-primitive data type
+3.Different Truthy and Falsy values in JavaScript
+4.Null Vs Undefined, different ways you will get undefined
+5.double equal (==) vs triple equal (===), implicit conversion
+6.Block scope, global scope, Hoisting
+7.(advanced) Closure, encapsulation, private variable
+8.(advanced) Callback function and pass different functions
+9.Module summary pass by reference pass by value
+
+

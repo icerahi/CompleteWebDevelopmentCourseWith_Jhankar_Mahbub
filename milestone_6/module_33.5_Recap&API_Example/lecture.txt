@@ -1,0 +1,7 @@
+1.Practice Problems sports db, openweathermap api
+
+checklist:
+   (done) 1,2,3,4,5,6> fetch data from jsonplaceholder and display in website 
+        with botton click and autoload
+
+        > sportsdb
