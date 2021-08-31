@@ -1,0 +1,10 @@
+1.Module introduction Different way to Create Object
+2.Object method property review
+3. Keys, values, entities, delete, seal, freeze
+4.Loop through an object using for in, for of, object entries
+5.(advanced) Compare objects, referential integrity
+6.(advanced) Use bind to borrow method from another object
+7.(advanced) Difference between bind, call and apply
+8.( super advanced) Understand this keyword in JavaScript
+9.Module summary and checklist
+
