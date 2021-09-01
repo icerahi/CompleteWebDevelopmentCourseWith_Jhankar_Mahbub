@@ -1,3 +1,5 @@
+
+ 
 // handling enter button
 document.getElementById("search_field").addEventListener("keyup", (event) => {
   if (event.key == "Enter") {
@@ -6,6 +8,9 @@ document.getElementById("search_field").addEventListener("keyup", (event) => {
 });
 
 const loadData = async () => {
+
+  document.getElementById('loader').style.display="block"
+  document.getElementById('loader').innerHTML="Loading......"
   const searchField = document.getElementById("search_field");
   const key = searchField.value;
   if (key == "") {
@@ -29,7 +34,8 @@ const loadData = async () => {
 
 const showData = (teams) => {
   const teamsContainer = document.getElementById("teams");
-  console.log(teams);
+  document.getElementById('loader').style.display="none"
+ 
   if (teams == null) {
     alert(`No result found !!`);
   } else {

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random User</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <section  class="container">
+        <button onclick="loadData()" class="btn btn-outline-danger">Refresh</button>
+        <div id="user_box" style="height: 500px;" class="row align-items-center justify-content-center">
+            <div class="card text-center col-md-6 col-sm-10">
+                <img id="image" src="" class="card-img-top w-25  rounded-circle mx-auto" alt="...">
+                <div class="card-body">
+                    <p class="text-muted fw-lighter"> <span id="my_title"></span>  <br>
+                        <span id="my_info" class=" text-dark h3 fw-bold"></span>    
+                    </p>
+               
+                   
+                 <div class="d-flex mt-5 gap-1">
+                     <button id="me" class="btn w-25 btn-outline-dark">Me</button>
+                     <button id="mail" class="btn w-25 btn-outline-dark">Mail</button>
+                     <button id="birthday" class="btn w-25 btn-outline-dark">Birthday</button>
+                     <button id="address" class="btn w-25 btn-outline-dark">Address</button>
+                     <button id="phone" class="btn w-25 btn-outline-dark">Phone</button>
+                     <button id="password" class="btn w-25 btn-outline-dark">password</button>
+                 </div>
+                </div>
+              </div>
+        </div>
+      
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

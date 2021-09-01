@@ -4,4 +4,7 @@ checklist:
    (done) 1,2,3,4,5,6> fetch data from jsonplaceholder and display in website 
         with botton click and autoload
 
-        > sportsdb
+      (done)  > sportsdb
+      (done)   > sportsdb loading added
+      (done)  > random user
+               > weather app
