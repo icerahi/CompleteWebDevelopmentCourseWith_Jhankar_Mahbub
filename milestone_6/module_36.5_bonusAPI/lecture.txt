@@ -1,0 +1,11 @@
+1. Get API key and load temperature data by city name
+2.Display temperature, city, dynamic weather icon
+3.Understanding closure and return multiples from function
+4.(advanced) Hoisting, block scope, scope chain
+5. Transfer assignment private repo to your github private repo
+        5> assignment private repo to clone own repo
+        # bare clone : git clone --bare assignment repository link.git
+        # cd repositoryname
+         #=> git push --mirror repositoryLink where want to push
+         # show origin : git remote -v
+          => change origin : git remote set-url repository-link
