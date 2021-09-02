@@ -1,2 +1,5 @@
 1. API ES6 and concept milestone practice
 2.Common API Data access related issues
+3.Add Spinner And Toggle Content While Loading Data ==== > spinnerToggleFunction=()=>
+                                                    ==> conditional display , conditon ? result : another result
+
