@@ -37,9 +37,6 @@ const showDetails = async id =>{
 
     const body = document.querySelector('body')
     const div = document.createElement('div')
-  
- 
- 
    div.innerHTML=`
    <div class="dialog-box animate__animated animate__rollIn">
     <div class="dialog-close">X</div>

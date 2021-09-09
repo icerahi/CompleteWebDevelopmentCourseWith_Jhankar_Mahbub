@@ -1,0 +1,9 @@
+1. Module Introduction and how internet works
+2. How Browser works, DOM tree, Render Tree
+3.JavaScript Engine V8 Internal mechanism
+4. setTimeout simple Asynchronous JS using
+5.Recognize fetch as an Asynchronous activity
+6.setInterval and clearInterval with x++ and ++x
+7.(advanced) JavaScript event loop and concurrency
+8.Integrate chrome devtool console with VS Code
+9. Module summary and HTTP layers

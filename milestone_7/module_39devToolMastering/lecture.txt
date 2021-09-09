@@ -1,0 +1,9 @@
+1. Module overview, Dev tool overview, settings, shortcut keys
+2. Element tab, HTML event listener, accessibility list
+3. Console tab, preserve log, log levels, console api
+4.Sources tab, break point, call stack, event break
+5. Debug fancy slider and fix image display, console table
+6. More debug to fix slider to slide by getting duration
+7. Fix negative duration and how to read others code
+8. Performance tab, memory tab, Lighthouse tab
+9.  Module Summary, Try out Create React APP

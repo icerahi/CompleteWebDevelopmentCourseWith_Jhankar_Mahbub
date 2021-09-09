@@ -1,0 +1,21 @@
+1. Module Overview, BOM vs DOM, Browser API
+2. Browser alert, confirm, prompt with examples
+3. Location, URL parts, query string, href, hash, assign, reload
+4. History api to navigate back, forward, go, history length back, forward, go(1 or -1), history length [MDN docs]
+5. (advanced) Cookies, dev tool application tab, get cookie value
+6. Local storage, session storage, storage info in browser storage
+7. Dynamically set and read from local, session storage
+8. (advanced) retrieve local storage value and display them
+9. Module Summary, ContentEditable, chrome restart
+
+
+
+
+
+
+
+
+
+
+
+

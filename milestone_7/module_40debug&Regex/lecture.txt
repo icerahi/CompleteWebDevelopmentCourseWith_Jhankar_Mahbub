@@ -1,0 +1,9 @@
+1.Module Introduction and Dev tool Element tab
+2.Dev Tool Console Source Tab Review
+3.Explore Salary App and try to add a Record
+4.Logical Not, double Not, fix add to Record to chart
+5.Lost with errors and trying to find ways to fix it
+6.Fix Duplicate names on the chart and display chart
+7.Explains Unique name generation for duplicate data
+8.Simple Introduction to Regular expression
+9. Module Summary

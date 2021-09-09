@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=``">
+    <title>Email Validator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mx-auto m-5">
+        <p id="msg"></p>
+        <input id="email" class="form-control w-50 border-danger" type="email" placeholder="Your Email" value="">
+        <button onclick="Subscribe()" class="btn btn-success"> Subscribe</button>
+    </div>
+    
+    <script>
+        const Subscribe = ()=>{
+            const emailField=document.getElementById('email')
+            const email = emailField.value
+            const msg = document.getElementById('msg')
+            if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)){
+                msg.innerText="Your email is a valid email"
+                msg.style.color="green"
+                emailField.value=""
+            }
+            else{
+                msg.innerText = 'Your email is invalid'
+                msg.style.color="red"
+            }
+        }
+    </script>
+</body>
+</html>
