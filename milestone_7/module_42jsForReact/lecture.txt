@@ -1,0 +1,10 @@
+1.Six JavaScript Fundamentals that you need to know.
+2. Template String, Arrow Function, Spread Operator
+3.Array Methods Map Filter Find Foreach
+4.Array And Object Destructuring, Optional Chaining
+5.Json, Fetch, Keys, Values, Array Add Or Remove Using Dots
+6.(Advanced) Truthy, False Ternary Operator, Shortcut And Or
+7.Explore Localstorage And Session Storage With Json
+8.Module Summary and Revision Task
+9. (Optional) React Js Installation Trouble Shooting
+

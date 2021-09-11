@@ -1,0 +1,9 @@
+1.Module Introduction and Setup Typescript
+2.Create output and connect html file for typescript
+3.Basic typescript type number string boolean
+4.Set function parameter type and function return type
+5. Apply types for array and get error for type mismatch
+6.Object types, type and arrow function type
+7. (advanced) Interface and extend interfaces
+8.(advanced) class and explore methods private fields
+9.Module Summary, How much typescript you should know

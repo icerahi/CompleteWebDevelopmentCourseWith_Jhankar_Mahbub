@@ -1,0 +1,11 @@
+1. Practice Browser api with checklist and a must work
+
+
+
+//deu
+9. simple website with two input field and a buton product name,
+    product PromiseRejectionEvent, by lciking on button will add in local storage. 
+10. Display products on the WritableStreamDefaultWriter. If they exists on localStorage,display from there */
+
+
+and Eventloop video from youtube 
