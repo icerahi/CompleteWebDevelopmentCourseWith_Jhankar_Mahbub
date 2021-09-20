@@ -1,0 +1,11 @@
+Module_title: React Core Ceoncepts,JSx,props,state 
+
+1.Module Introduction, Create React App, 6 Core Concepts
+2.Jsx, Dynamic Content, Dynamic Style In React
+3.Create Component, Return Html From A Component
+4.Pass Dynamic Data To Components, Props In React
+5.(Advanced) Create Multiple Components From An Array Of Objects
+6.Concept Recap, Jsx, Components, Props, Display Array Of Objects
+7.(Advanced)State, Component State Hook And Set State Method
+8.(Advanced)Load Dynamic Data, Api Call Useeffect Integrate State
+9.Module Summary React Core Concepts Recap

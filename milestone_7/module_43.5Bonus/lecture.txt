@@ -1,0 +1,7 @@
+1.Create A Simple Slider Using JavaScript
+2.How to approach a debugging session with an error
+3.Use Console log to debug and fix the slider
+4.Implement Search Box click on keyboard enter with debug
+5.Use Elimination technique for debugging
+
+shortcut wayto empty a array >>> array.length=0

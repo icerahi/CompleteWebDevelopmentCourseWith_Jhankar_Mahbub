@@ -1,0 +1,6 @@
+title: React Core Concept Recap and Pracice day
+
+1.Recap Create react app, Component, styles, props
+2.Check out Event listener, useState inside components
+3. Load data using the useEffect and display data
+4.Avoid multiple react install due to slow internet

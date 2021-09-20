@@ -1,0 +1,11 @@
+title: Simple React Rest Countries
+
+1.Module Introduction, load countries using useEffect
+2.Display countries in a simple way, Folder Structure
+3.Components inside the folder structure and connect them
+4.Components inside the folder structure and connect them
+5.Create child component and pass data via props
+6.(advanced) Pass multiple data to a child component
+7.(advanced) add unique key for mapping components
+8.build your react app and host your react app in Netlify
+9.Module Summary and recap
