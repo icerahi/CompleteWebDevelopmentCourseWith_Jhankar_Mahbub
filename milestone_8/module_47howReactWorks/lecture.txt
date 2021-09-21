@@ -1,0 +1,11 @@
+title: Conceptual- How React Works
+
+1.Module Introduction Create React App under the hood
+2.What is JSX, React Component, babel transpiler
+3.Components and how props works, unidirectional data flow(props are readonly)
+4.(advanced) How states works, asynchronous, console state(state is immutable)
+5. How React Hook works, send state via props, props vs state
+6.What is React, when to use it, react vs angular vs vue
+7. How react works, Render, virtual dom, diff algorithm, fiber
+8.React component lifecycle and rerender
+9.Module Summary, recap, Properties vs attributes

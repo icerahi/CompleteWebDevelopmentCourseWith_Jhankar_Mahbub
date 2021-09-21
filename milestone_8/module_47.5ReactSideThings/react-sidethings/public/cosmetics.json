@@ -1,0 +1,22 @@
+[
+    {
+      "id":1,
+      "name":"alta",
+      "price":25
+    },
+    {
+      "id":2,
+      "name":"Nail Polish",
+      "price":500
+    },
+    {
+      "id":3,
+      "name":"face mask",
+      "price":250
+    },
+    {
+      "id":4,
+      "name":"mascara",
+      "price":550
+    }
+  ]

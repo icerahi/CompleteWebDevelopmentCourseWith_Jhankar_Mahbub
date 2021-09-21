@@ -1,0 +1,7 @@
+Title: Practice and React Side things
+
+1.ES6 Modules, import, export, default, relative path
+2.Create and Load Fake data, intro to array reduce
+3. Intro to Local storage to store data
+4. Add and remove data to the local storage
+5.Good UI vs bad UI, themeforest, freepik, flaticon, unsplash
