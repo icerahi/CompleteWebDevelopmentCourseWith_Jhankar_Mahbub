@@ -1,0 +1,17 @@
+.cart{
+    
+  
+    
+}
+.selected-cast{
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   border-radius: 20px;
+    padding:0 5px;
+    /* background-image:linear-gradient(white,lightgray); */
+    box-shadow:1px 3px 10px gray;
+    border-bottom:1px solid black;
+    background-color:white;
+}

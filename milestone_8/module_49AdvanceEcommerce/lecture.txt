@@ -1,0 +1,14 @@
+Module Title: Save and searchable e-commerce
+
+## files in previous Module folder
+
+1.Module Introduction and simple ema-john recap
+2.Setting the cart on the localStorage for retrieve
+3.(advanced) Load cart from local storage, find product
+4.(advanced) Display local storage cart to the UI
+5.(super advanced) Handle quantity from storage to cart
+6.(advanced) implement search to find products
+7.Display dynamic star ratings on products
+8. Module summary, deploy, code recap
+9.How to Master React
+

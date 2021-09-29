@@ -1,0 +1,16 @@
+Module Title: React Boostrap,Material Ui,Axios,Rechart
+
+1.Module Introduction Use Bootstrap CDN in React
+2.Install React Bootstrap in your react application
+3.Explore News API to integrate react bootstrap Card
+4.Display News and add Loading Spinner on your app
+5.Getting started with Material UI, button, rating
+6.Display News using Material UI Card
+7. Setup tailwind css with Create React App
+8.Use reachart(not work yet) to draw any type of chart using React
+9.Module Summary, Axios, react spring animation(not work mine yet)
+
+>>>read react-bootstrap documentation full => If needed
+>>>read materialUI documentation full => If needed
+>>>read tailwindcss documentation full => If needed
+>>>read rechart documentation full => If needed

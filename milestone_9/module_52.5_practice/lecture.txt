@@ -1,0 +1,10 @@
+title : Meal db search and routing
+
+1.ractice Meal db with search and dynamic route params
+
+task: 
+    => implment mealsearch using cssframework
+    => meal details ,
+
+
+    task all done

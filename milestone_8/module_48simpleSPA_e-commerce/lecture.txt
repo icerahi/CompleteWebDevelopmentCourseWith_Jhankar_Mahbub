@@ -1,0 +1,11 @@
+title : Simple React SPA with simple e-commerce
+
+1.Module Introduction, site overview, website logo
+2.Header Component, logo position, set nav menu
+3.Shop Component Layout, load data and set state
+4.Product Component, component layout, display data
+5.Review Progress so far, add a button for event handler
+6.(advanced) set eventhandler, pass eventhandler to child
+7.(advanced) Cart state setup, update cart and total on click
+8. Install external packages, react-fontawesome, display icon
+9.Simple React SPA module summary

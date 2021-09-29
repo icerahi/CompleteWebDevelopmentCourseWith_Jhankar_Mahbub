@@ -1,0 +1,11 @@
+Module Title : Simple React Router Examples
+
+1.Module Introduction, install React Router, Project Setup
+2.Create Simple Route and simple router setup
+3. Load Users, display users, style users
+4.Recap Router, route, path, component, not found, exact
+5. Navigate Pages, set header, Create Link, display active route
+6.Create route with some fixed and some dynamic part
+7.React route parameter and load data based on dynamic route
+8.How to navigate fixed or dynamic route using a button click
+9.Module Summary and Recap React Route for Posts

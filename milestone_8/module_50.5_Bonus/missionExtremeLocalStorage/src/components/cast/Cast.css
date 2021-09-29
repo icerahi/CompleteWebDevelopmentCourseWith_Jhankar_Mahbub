@@ -1,0 +1,22 @@
+.cast-card {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 10px 10px 10px 10px lightgray;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: white;
+}
+.cast-select-btn {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 20px;
+  position: absolute;
+  bottom: -10px;
+  right: -15px;
+  font-weight: 700;
+  /* background-image: linear-gradient(gray,whitesmoke); */
+  /* background-color: rgba(0, 128, 0, 0.849); */
+ 
+}
+

@@ -1,0 +1,7 @@
+Title : Simple React Bonus
+
+1. A very simple way to add or remove key to an object
+2.Read, Write and update data stored in local storage
+3.Wrap event handler with arrow function while passing data
+4.Get and set data from Local Storage with React Application
+5.Revisit array reduce and handle quantity property
