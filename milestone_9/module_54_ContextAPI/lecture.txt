@@ -1,0 +1,18 @@
+Module title: Router Deploy,Simple Context API
+
+files in previous module
+1.Module Introduction Use Children props into Component for dynamic content
+2.Create order placed and clear cart and stored data
+3. Debug add to cart bug and update quantity of existing item
+4.Deploy react router and introduction to react dev tool
+
+files in current module
+5.Explore Conditional Rendering in React
+>>> 1. Element as veriable and rendering using if() else{}
+>>> 2. Tarnary operation ,conditon? true show : false show
+>>> 3. logical &&
+>>> 4. logical ||
+6.Grandfather Context Create a Family Tree
+7. Prop Drilling to pass data to a many level components
+8.Simple Introduction to Context API to avoid Prop drilling
+9.Module Summary and multiple value in context

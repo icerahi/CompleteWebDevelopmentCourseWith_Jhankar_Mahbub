@@ -1,4 +1,12 @@
 Module Title: Ema-john with router and custom hook
 
 1.Module overview, clone external projects with personal git setup
-2.
+>>> git remote set-url origin https:urllink of repository
+2.Install React router and implement simple router setup
+3.Write useState and useEffect in a different file and import it
+4.Recap useProducts, create useCart and use it
+5. Create review page structure and Display Shopping cart
+6.Implement Review Item and apply Remove Item handler
+7.Make Data consistent across UI and stored data
+8.(conceptual) useState, useEffect, and remove using filter
+9.Module Summary, use NavLink and recap custom hook
