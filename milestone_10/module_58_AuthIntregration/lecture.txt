@@ -1,0 +1,13 @@
+title: React Auth Integration and Private Route
+
+1.Module Introduction and Basic Project Setup
+2.Create Use Firebase hook to for shared authentication
+3.Add Google Sign using custom hook with on State Change
+4.Implement Sign out and display user logged in User name
+5.Create Simple Auth Context and Auth Provider with value
+6.Setup useAuth custom hook and create shipping route
+7.Introduction to Route, Redirect and Private Route
+8.Understanding Private Route, Implement Auth Redirect
+9.Module Summary and Private Route Recap
+
+//// need to practice all self.

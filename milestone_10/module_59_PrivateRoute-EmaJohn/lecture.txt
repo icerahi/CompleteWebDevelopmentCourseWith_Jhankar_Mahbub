@@ -1,0 +1,13 @@
+title : Private Route Recap with Ema-John
+
+1.Module Introduction Auth Integration and project setup
+2.Create login, register component and set route
+3.Setup firebase sign in, sign out and observer hook
+4.Create user context and set logged in user in context
+5.Use Auth Context hook and recap code
+6. Create Private Route and understanding destructuring
+7.Set Private Route and Redirect to login url
+8.(optional) Redirect to the initial page after login
+9.Create shipment form using React hook form
+10.Module Summary
+///

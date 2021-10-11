@@ -1,0 +1,11 @@
+title: Simple React Firebase authentication.
+
+1.Module Introduction,authentication vs Authorization
+2.Create firebase project, Google Analytics Overview
+3.Install Firebase SDK and set Firebase configuration
+4.Sign in with google, open google login popup
+5.Recap google popup sign in process
+6.Set logged in user in state, display logged in user info
+7.Implement github login system and display user infO
+8. Add Sign out button and toggle sign in, sign out button
+9. Module Summary

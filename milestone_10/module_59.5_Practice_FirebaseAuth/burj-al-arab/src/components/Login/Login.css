@@ -1,0 +1,23 @@
+
+.login-form{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-form input{
+    display: block;
+    padding:10px 20px;
+    border-radius: 20px;
+    margin-top:5px;
+    
+}
+
+button{
+    padding:5px 10px;
+    margin:5px;
+    font-size: 20px;
+    background-color: darkcyan;
+    font-weight: 700;
+
+}

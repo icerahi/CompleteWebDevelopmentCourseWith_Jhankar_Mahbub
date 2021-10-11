@@ -1,0 +1,13 @@
+title: Email Password Authentication
+
+1.Module Introduction Recap google sign in
+2.Login, Registration, Sign Up, Sign In, Create Simple Login Form
+3.Use Bootstrap From And Get User Email And Password
+4.Create New User Using Email And Password
+5.Login Form Field Validation Using Regular Expression, Show Error
+6.Toggle Registration and login, implement sign in with email password
+7. Handle Email Verification, Forget Password Or Reset Password
+8. Update User Name And Other Information To Firebase
+9.Module Summary
+
+////

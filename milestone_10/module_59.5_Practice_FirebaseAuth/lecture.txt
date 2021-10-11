@@ -1,0 +1,15 @@
+title: Firebase auth and private Route Recap 
+
+1.Host Firebase App to firebase 
+2. Practice Firebase Auth and Private Route Using Burj Al-Arab
+
+Task need to do:
+done==> 1> Firebase google Authentication(show info) 
+done,yahoo> 2> Select any other provider and implement 
+done> 3> Email password Register and Login ,profile update done
+done==> 4> Make Login form look good using Icon.
+done==> 5> Try authentication with Facebook 
+
+
+
+OID1002782887
