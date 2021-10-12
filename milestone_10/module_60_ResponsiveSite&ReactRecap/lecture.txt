@@ -1,0 +1,22 @@
+title : REsponsive React Website and React Recap
+
+1.Module Overview and simple review of React
+2.Recap of How React and JSX works
+3.Best folder structure and component orientation
+4. Collect, Edit, optimize and host images for your website
+5.Create service component and display services
+6.Make Services Responsive using CSS media query
+7.Build Responsive React website using Bootstrap
+8.React Bootstrap for responsive and image slider, banner
+9.Module Summary, Tailwind and Material UI
+
+////
+#to find image:
+        =>freepik
+        =>unplash
+#to optimize or compresse Image:
+        => TinyPNG
+#to Crop or sizing image:
+        => Photopea
+#to host image:
+        =>imgbb
