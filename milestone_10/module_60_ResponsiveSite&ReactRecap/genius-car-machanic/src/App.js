@@ -1,12 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-import Services from './Pages/home/services/Services';
-import Home from './Pages/home/Index';
-
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./Pages/home/home/Home";
+import Booking from "./Pages/booking/booking/Booking";
+import Login from "./Pages/login/login/Index";
+import NotFound from "./Pages/notFound/NotFound";
+import Header from "./Pages/shared/header/Header";
+import AuthProvider from "./contexts/AuthProvider";
+import PrivateRoute from "./Pages/login/privateRoute/PrivateRoute";
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <AuthProvider>
+        <BrowserRouter>
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/home" component={Home} />
+            <PrivateRoute path="/Book/:serviceId" component={Booking} />
+            <Route path="/login" component={Login} />
+
+            <Route path="*" component={NotFound} />
+          </Switch>
+        </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }

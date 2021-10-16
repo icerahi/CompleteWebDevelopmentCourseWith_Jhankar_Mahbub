@@ -20,3 +20,16 @@ title : REsponsive React Website and React Recap
         => Photopea
 #to host image:
         =>imgbb
+
+the next module work.
+1.Module Introduction and basic Router setup with 404 page
+2.Setup Dynamic Route and access route params
+3.Header and Login component with React Bootstrap Navbar
+4.Make Header Responsive and create Firebase Project
+5.(optional) Environment variable for Firebase in Create React App
+6.Set UseFirebase function and explain onAuthStateChanged
+7. Create AuthContext and useAuth Hook and connect with Header
+8.Private Route and Explain purpose of onAuthStateChanged
+9.Fix Reload redirect to login page issue and Firebase deploy
+
+//
