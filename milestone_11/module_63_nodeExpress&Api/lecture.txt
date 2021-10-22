@@ -1,0 +1,13 @@
+title: Getting started with Node,Express and Api
+
+1.Module overview Introduction to Node
+2.Getting started with Node and Express, your first api
+3.Recap Node express and install nodemon for auto restart
+4.Create dynamic api, api parameter, access params
+5.Access query parameter and return search result
+6.Use fetch to load data from server, middleware, handle cors
+7. Create Post API and set fetch with post method
+8.POST data to server and display them on the UI
+9.Module summary, git ignore for node project
+
+
