@@ -1,0 +1,14 @@
+title : Genius Car Node Mongo CRUD Recap
+
+0.(Conceptual) Node Mongo,express why we use them
+1.Module Introduction Client and backend setup
+2.Setup simple node express server and explore mongodb
+3.Connect to database with secure password on environment variable
+4.Create Post api and UI page to insert service
+5.Use React hook form to setup the add service form
+6.Insert Service data to the mongodb cloud database
+7. Load all services and single service from the server
+8.Display all services and explore delete api
+9.Module Summary
+
+///

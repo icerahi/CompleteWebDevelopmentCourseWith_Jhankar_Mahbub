@@ -1,0 +1,21 @@
+title : CRUD Update and Product Management Practice
+
+worked on previous code
+    1.Setup Update form to update an user
+    2. Update an User and store the user to the database
+3.Practice user management, Practice product management
+
+
+
+Task to practice:
+===> user management self
+===> Product management self.
+
+
+user Management=>
+        => Home,
+        => add user
+        =>Users
+        =>single user,
+        =>delete user,
+        =>update 

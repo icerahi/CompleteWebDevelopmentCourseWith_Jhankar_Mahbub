@@ -1,0 +1,14 @@
+title: Mongodb,database integration,CRUD
+
+1. Module Overview mongodb vs MySql
+2.Node mongo crud server, mongodb atlas account
+3.Connect to cloud database and Send data to database
+4. (Recap) Async await, try catch and mongodb connection
+5.Setup client side React App to send data to the server
+6.Save data from React Client side to mongo database
+7.Load data database data and show on the website
+8.Delete an item from the database and update the UI
+9.Load single item by id and display the user info
+10.CRUD operation and module summary
+
+//
