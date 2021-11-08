@@ -1,0 +1,71 @@
+Module:69
+title: Final Proeject Part 1 (Home Page)
+
+1.Module introduction and project overview
+2.Introduction to Material UI to use default appBar
+3.Explore Material UI Responsive Grid for services section
+4.Use Material UI Card to display Single service data
+5.Finish Service and Explore Material UI Common Utility
+6.Add Dynamic background image for the appointment
+7.Make Image popup and background position
+8.Create simple Top Banner Using Material UI
+9. Module Summary
+
+///.... work on 69 module code
+Module:70
+title:Final Project Part-2 (Appointment)
+
+1.Module Introduction And Appointment Page Setup
+2.Create Appointment Header And With Mui Date Picker
+3.Set Dynamic Calendar With Lift Up State To Share Data
+4.Create Booking Component Inside Responsive Grid
+5.Style Booking Card Using Material Ui Paper
+6.Display A Modal From On Booking Click With Dynamic Data
+7.Create Booking Form Inside Booking Modal
+8.Simple Node Mongo Server To Connect Database
+9.Module Summary And Database Connection
+//
+
+///Module : 70.5 => Practice (DEU),Complete doctors protal homepage
+
+//Module: 71 
+title: Final Project Part -3 (Auth Recap)
+1.Module Introduction, Recap and Login route
+2.Set Login Component and use Object as State
+3. Registration page, Recap update of State holding an object
+4.Create Firebase Project and set Environment variable
+5.Set UseFirebase function and explain onAuthStateChanged
+6. Create AuthContext and useAuth Hook
+7. Use Auth hook in the Register page and set Loader
+8.Handle Login Success Failure and set Login page
+9.Private Route and redirect user to the page they wanted to go
+
+///
+
+
+//Module: 72
+Title : Final Project Part 4 (Dashboard) 
+1. Module Summary Add Google popup Sign In
+2. Add user Name on Registration and handle redirect
+3. Server Overview and api naming convention
+4.Create Appointment post and collect client side data
+5.Store booking to the databases and display success
+6.Create Dashboard route with Responsive Sidebar or Drawer
+7. Load Appointments from API based on user Email
+8.Display User specific Appointments using Data Table
+9.Module Summary and filter by Date
+
+
+//Module : 73
+title: Final Project Part -5 (Secure Admin)
+1.Module Introduction and User Creation Process
+2.Save Registered user information in the database
+3. Upsert users data to insert if not exists to the database
+4. Implement Nested Route to have multiple path on Dashboard
+5.Create Make Admin page and api to make an user admin
+6.Limit Dashboard features based on admin level access
+7.Secure Admin Route and get jwt token on client side
+8.Setup firebase admin and verify token middleware
+9.Module Summary and verify jwt token on server
+
+///
