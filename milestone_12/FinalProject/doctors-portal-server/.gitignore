@@ -1,3 +1,4 @@
 node_modules
 .env
 doctors-portal-admin-sdk.json
+.firebase

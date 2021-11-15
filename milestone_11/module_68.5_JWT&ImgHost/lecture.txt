@@ -1,0 +1,8 @@
+title: JWT Token and image hosting
+
+1.Project setup for displaying orders
+2.Filter user info by email address
+3.Introduction JWT token and get jwt token on client side
+4. Send jwt token in the server, install firebase admin
+5.Setup firebase admin, verify and decode jwt token
+6.Handle 401 and redirect unauthorized user to the login page

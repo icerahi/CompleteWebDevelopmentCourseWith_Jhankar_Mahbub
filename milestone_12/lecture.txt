@@ -68,4 +68,7 @@ title: Final Project Part -5 (Secure Admin)
 8.Setup firebase admin and verify token middleware
 9.Module Summary and verify jwt token on server
 
-///
+/// Module : 73.5
+Title : Final Project deploy and Practice 
+1.Deploy doctores portal to heroku to server with config.
+2.

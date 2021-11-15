@@ -1,11 +1,11 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Appointment from "./pages/appointment/Appointment";
 import Login from "./pages/login/Login";
-import Register from "../src/pages/login/register/Register";
+import Register from "./pages/login/register/Register";
 import AuthProvider from "./contexts/AuthProvider";
-import PrivateRoute from "../src/pages/login/privateRoute/PrivateRoute";
+import PrivateRoute from "./pages/login/privateRoute/PrivateRoute";
 import Dashboard from "./pages/dashboard/Dashboard";
 function App() {
   return (

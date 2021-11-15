@@ -6,13 +6,13 @@ import { useState } from 'react'
 const ManageServices = () => {
     const [services,setServices]=useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/services')
+        fetch('https://thawing-hollows-80540.herokuapp.com//services')
         .then(res => res.json())
         .then(data => setServices(data))
     },[])
 
     const handleDelete=id=>{
-        fetch(`http://localhost:5000/services/${id}`,{method:'DELETE'})
+        fetch(`https://thawing-hollows-80540.herokuapp.com//services/${id}`,{method:'DELETE'})
         .then(res => res.json())
         .then(data =>{
             if(data.deletedCount){

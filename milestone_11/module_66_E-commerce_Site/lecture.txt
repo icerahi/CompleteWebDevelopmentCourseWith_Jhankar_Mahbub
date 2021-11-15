@@ -1,0 +1,13 @@
+title : E-commerce site Node and Mongodb Integration
+
+1.Module Introduction and simple ema-john server setup
+2.Run client side project and connect with mongo database
+3.Add data from JSON to database and load on the UI
+4.Introduction to pagination and get page count
+5.(Interesting) Create pagination state and navigation
+6.Load data based on the page selected on the UI
+7.Use Post to load some products using keys
+8.Save orders in a new data collection in mongodb
+9.Module Summary and A simple overview of node mailer/sendgrid
+10. (conceptual) Node vs Express, HTTP Method, Get VS POST
+//

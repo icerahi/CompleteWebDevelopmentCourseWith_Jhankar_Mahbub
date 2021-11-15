@@ -11,7 +11,6 @@ import {
   getIdToken,
 } from "firebase/auth";
 import initializeFirebase from "../pages/login/firebase/firebase.init";
-import { useHistory, useLocation } from "react-router-dom";
 //initialize firebase app
 initializeFirebase();
 const useFirebase = () => {
@@ -121,17 +120,15 @@ const useFirebase = () => {
       if (user) {
         setUser(user);
         getIdToken(user).then((token) => {
-          localStorage.setItem('token',token)
+          localStorage.setItem("token", token);
         });
-
-     
       } else {
         setUser(null);
       }
       setIsLoading(false);
     });
     return () => unsubscribe;
-  }, []);
+  }, [auth]);
 
   return {
     user,

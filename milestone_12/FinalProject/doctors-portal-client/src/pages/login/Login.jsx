@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Grid } from '@mui/material';
 import login from "../../images/login.png";
 import { NavLink, useLocation, useHistory } from 'react-router-dom';
-import useAuth from './../../hooks/useAuth';
+import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
     const [loginData, setLoginData] = useState({});

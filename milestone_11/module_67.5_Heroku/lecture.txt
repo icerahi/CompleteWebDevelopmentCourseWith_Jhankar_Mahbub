@@ -1,0 +1,34 @@
+title : Deploy to Heroku and Practice Problem
+
+1.Module Introduction, Understanding Node, build in methods
+2.Simple express server, Explore request and response
+3.Steps to connect to Mongodb database(15 steps)
+4. Introduction to Heroku setup account and initial deploy
+5. Deploy client side project to firebase with server side url
+///DEU
+6. Volunteer network client and server side Practice Problem
+github.com/programminghero1/voluntire network 
+figma file.
+
+
+
+heroku deploy///
+#onetime
+1.heroku account open
+2.heroku install in project
+
+everyproject:
+1.git init
+2..gitignore (node_modules,.env)
+3.push everything to git 
+4.make sure "start":"node index.js" in package.json
+5.make sure: process.env.PORT in front of port number 
+6.heroku login
+7.heroku create(only one time for a project)
+8.git push heroku main/master
+9. go heroku app setting reveal var(add DB_USER,DB_PASS)
+---- update:
+1.save everything check locally,
+2.git add,commit,push 
+3.git push heroku main/master 
+
