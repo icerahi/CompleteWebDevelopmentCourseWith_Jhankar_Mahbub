@@ -1,0 +1,53 @@
+Milestone: Intermediate Level React
+
+module:75
+=>Payment gateway Stripe Integration
+1.Module Overview Payment gateway and Stripe account
+2.Set Service price and Create payment route
+3.Load appointment specific data install stripe and stripe for react
+4. Implement payment Process with simple card form
+5.Handle payment processing error and success
+6.Server side payment intents API to get client Secret from stripe
+7. Payment confirmation and Store payment info to the database
+8. Store payment data on database and overview
+9.High level overview of Bangladeshi Payment Gateway
+
+//
+
+Module:76
+Title: Image Upload,Live Site Deploy ,React Router v6
+1. Module Overview and Image Upload form setup
+2. Use Form Data to send files to server using fetch
+3.Store images to the database and load image data
+4.Display Base 64 Buffer image from mongo db database
+5.Deploy Doctors portal to live site using google domain
+6.Replace React Router v5 by Version 6 and handle errors
+7. Handle More errors to update React Router V6
+8.Final Testing and How to start with React Router V6
+9.React Routing with V6 and CSS modules
+
+////
+
+module:77
+Title: Introduction React Native,Next Js,Class Components
+1.Getting started with React Native and create your first app
+2. Load data using fetching and display those data
+3.Display image in a Scrollview and explore React Native
+4. A simple introduction to Next JS
+5. Next JS routing and load data using get static props
+6. SSR overview and dynamic route generation
+7.Documentation overview of Sass and styled component
+8.Introduction to React Class Component and state
+9.Pass props and Handle events in Class Components
+
+///
+module:77.5
+title: useReducer,redux core concept,optional Assignment
+1.Four ways to manage State in a react application
+2.Redux Core concepts Store Action dispatch reducer
+3.A simple introduction of useReducer hook
+4.Use useReducer with reducer state for a simple case
+5.UseReducer with collection and action with payload
+6.Optional Assignment with New React Router V6, payment gateway
+
+//
